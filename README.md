@@ -9,7 +9,7 @@ Linux
 
 2.Files and Directories:
 * touch file.txt - create an empty file
-*vim file.txt – text editor
+* vim file.txt – text editor
 * cat file.txt -  prints or display file contents
 * mkdir - create a directory
 * mkdir -p - create nested directories
