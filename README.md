@@ -8,10 +8,10 @@ Linux
 * tree - display directories as a tree
 
 2.Files and Directories:
-* touch file.txt - create an empty file
-* vim file.txt – text editor
-* cat file.txt -  prints or display file contents
-* mkdir - create a directory
+* touch (file.name) txt - create an empty file
+* vim (file.name) txt – text editor
+* cat (file.name) txt -  prints or display file contents
+* mkdir (folder name) - create a directory
 * mkdir -p - create nested directories
 * cp - copy a file or directory
 * cp -r - copy a directory recursively
@@ -31,6 +31,8 @@ Linux
 * htop - enhanced process viewer(human readable format)  
 * pkill name - send signals by process name
 * kill PID number - kill by PID number
+* sudo systemclt start(name) - to start the process
+* sudo systemclt status(name) - to check the status
 
 5.System info and Logs maintain:
 * vmstat - virtual memory statistics
@@ -42,8 +44,11 @@ Linux
 * ip -a - show the IP address
 * curl - HTTP request
 * wget link - download a file
+
  Bash Script:
-* Bash is a Scripting Language.
+
+* Bash is a Scripting Language and not a programming language.
+* Bash is to automate and simplify.
 * Bash is the default shell in linux operating systems.
 * #!/bin/bash – shebang command that only it take as bash file 
 * Bash file extension is sh
@@ -65,27 +70,86 @@ Echo “My age is $Age”
 * Crontab -l =list 
 * Crontab -e =edit
 * Crontab -r =entire cronjob delete
- Github :
+   *****
+1. Minute(0-59)
+2. Hours(0-23)
+3. Day in a month(1-31)
+4. Month(1-12)
+5. Day of the week(0-7,0 and 7 both are sundays)
+
+Github Commands:
+
+GitHub - To version control this cloud data to access the data.
+
 1.Setup & Configuration:
+
 * git config --global user.name “Your Name”
 * git config --global user.email “ your email.id”
+
 2.Repository Management:
+
 * git init -Initialize a new repo
-* git clone “repo link” - Clone an  repo
+* git clone “repo link” - Clone an repo
+
 3.Basic Workflow:
+
 * git status - Check changes
 * git add . - Stage all changes
 * git commit -m "Your Commit message" - Commit staged changes
 * git push origin main - Push to GitHub
 * git pull origin main - Pull latest changes
+
 4.Branching & Merging:
+
 * git branch branch.name - Create branch
 * git checkout branch.name - Switch branch
 * git merge branch.name - Merge into current branch
 * git log – it show the commit 
 * git log --oneline -it  show the commit in one line
 
+5.Git Branching Stragies:
 
+* Trunk - Based Development(TBD)
+* GitHub Flow(Tree shape)
+* GitFlow
 
+Devops LifeCycle:
 
+1. plan
+2. code
+3. build
+4. test
+5. release
+6. deploy
+7. operate
+8. monitor
+
+Python in ubuntu:
+
+* sudo apt install python3 - to install the python in ubuntu
+* python3 - to check version
+* exit() - to come out from python file in ubuntu
+
+Functions in Python:
+
+They are two types of function,
+1. In-built function 
+2. Custom function
+
+* Inbuilt Function: Functions that are already provided by Python (example: print(), len()).
+
+ex:
+ print("Hello World")
+ print(len("Hello,shalini!"))
+
+* Custom Function: Functions created by the user to perform a specific task (using def).
+
+ex:
+def student():
+    print("This is a student function")
+    a=10
+    b=20
+    c=a+b
+    print(c)
+student()
 
