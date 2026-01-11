@@ -71,7 +71,7 @@ Echo “My age is $Age”
 * Crontab -e =edit
 * Crontab -r =entire cronjob delete
 
-*****
+ ***** - commands to execute
 
 1. Minute(0-59)
 2. Hours(0-23)
