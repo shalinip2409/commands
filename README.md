@@ -70,12 +70,15 @@ Echo “My age is $Age”
 * Crontab -l =list 
 * Crontab -e =edit
 * Crontab -r =entire cronjob delete
-   *****
+
+*****
+
 1. Minute(0-59)
 2. Hours(0-23)
 3. Day in a month(1-31)
 4. Month(1-12)
 5. Day of the week(0-7,0 and 7 both are sundays)
+
 
 Github Commands:
 
